@@ -1,0 +1,215 @@
+@font-face{
+  font-family: 'Namethefont';
+  src: url('../fonts/AkzidenzGroteskStd-MdCn.otf');
+}
+
+@font-face{
+  font-family: 'quicksand_light';
+  src: url('../fonts/Quicksand-Light.otf');
+}
+
+@font-face{
+  font-family: 'lato_light';
+  src: url('../fonts/Lato-Light.ttf');
+}
+
+@font-face{
+  font-family: 'graphik_thin';
+  src: url('../fonts/graphik/Graphik-Thin.otf');
+}
+
+@font-face{
+  font-family: 'graphik_light';
+  src: url('../fonts/graphik/Graphik-Light.otf');
+}
+
+@font-face{
+  font-family: 'graphik_medium';
+  src: url('../fonts/graphik/Graphik-Medium.otf');
+}
+
+@font-face{
+  font-family: 'mix_modern';
+  src: url('../fonts/MixModernOutline.ttf');
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700,100italic);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+html { 
+	overflow-y: scroll;
+	background: url(../images/sweatpants_web.jpg) no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+html a {
+	-webkit-transition: color 0.4s ease-in, background 0.4s ease-in, opacity 0.4s ease-in;
+	-moz-transition: color 0.4s ease-in, background 0.4s ease-in, opacity 0.4s ease-in;
+	-o-transition: color 0.4s ease-in, background 0.4s ease-in, opacity 0.4s ease-in;
+	transition: color 0.4s ease, background 0.4s ease, opacity 0.4s ease;
+}
+
+
+body {
+	color: #000;
+	font-family: 'lato_light', helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	min-height: 100%;
+}
+
+#layout {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#page {
+	background-color: rgba(255,255,255,0.75);
+	width: 800px;
+	margin: 18px 18px 36px 200px;
+	text-align: center;
+}
+
+p {
+	font-family: 'lato_light', sans-serif;
+	font-size: 18px;
+	width: 750px;
+}
+
+#enter h3 {
+	font-family: 'mix_modern', helvetica, sans-serif;
+	font-size: 125px;
+	font-weight: 100;
+}
+		
+h1 {
+	margin-top: 0;
+	font-family:  'mix_modern', helvetica, sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+h2 {
+	font-family: 'graphik_medium', helvetica, sans-serif;
+	text-align: left;
+	font-size: 25px;
+    line-height: 40px;
+	font-weight: 400;
+}
+
+
+
+h3 {
+	font-family: 'Josefin Sans', arial, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 20px;
+}
+
+.back {
+    font-family: 'graphik_thin';
+    font-size: 25px;
+    float: right;
+    border: 1px solid;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.back a {
+    text-decoration: none;
+}
+nav {
+	font-family: 'graphik_thin', arial, sans-serif;
+	width: 175px;
+	opacity: .9;
+	color: #D3D3D3;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	float: left;
+	line-height: 25px;
+}
+
+nav a {
+		text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px 5px;
+	background-color: #262626;
+}
+
+nav a:link, nav a:visited {
+	color: #D3D3D3;
+}
+
+nav ul a:hover {
+	color: #E3E3E3;
+	background-color: #262626;
+	opacity: .6;
+}
+
+nav #tagline {
+	font-family: "graphik_medium";
+	font-size: 22px;
+}
+
+article {
+	margin: 0 25px;
+	padding: 25px 0;
+}
+
+#logos {
+	padding-top: 7px;
+}
+
+#logos a:hover {
+	opacity: .6;
+}
+
+a:link, a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #5A5A5A;
+}
+
+figure a:hover {
+	opacity: .8;
+}
+	
+figcaption {
+	font-family: 'lato_light', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 17px;
+}
+
+iframe {
+	border: 0;
+}
+
+.clearFloat {
+	clear: left;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+}
+
