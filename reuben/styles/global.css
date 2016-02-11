@@ -1,0 +1,105 @@
+@font-face{
+  font-family: 'graphik_thin';
+  src: url('../fonts/graphik/Graphik-Thin.otf');
+}
+
+@font-face{
+  font-family: 'graphik_light';
+  src: url('../fonts/graphik/Graphik-Light.otf');
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-transition: color 0.3s ease-in, background 0.3s ease-in, opacity 0.3s ease-in, border-bottom 0.3s ease-in;
+	-moz-transition: color 0.3s ease-in, background 0.3s ease-in, opacity 0.3s ease-in, border-bottom 0.3s ease-in;
+	-o-transition: color 0.3s ease-in, background 0.3s ease-in, opacity 0.3s ease-in, border-bottom 0.3s ease-in;
+	transition: color 0.3s ease-in, background 0.3s ease-in, opacity 0.3s ease-in, border-bottom 0.3s ease-in;
+}
+
+
+html {
+	overflow-y: scroll;
+    background-color: white;
+}
+
+body {
+	font-family: 'graphik_thin';
+	color: #000;
+}
+
+/***** Nav START *****/
+
+
+		nav {
+			font-family: 'graphik_light';
+			position: fixed;
+			font-size: 13px;
+			display: block;
+			text-decoration: none;
+			left: 50px;
+			top: 50%;
+			margin-top: -80px;
+			color: #000;
+		}
+		
+		nav ul {
+			display: table;
+		    border-collapse: collapse;
+			list-style-type: none;
+			margin: none;
+			padding: 0;
+
+		}
+		
+		nav li {
+		    width: 100px;
+		    padding-bottom: 30px;
+            text-align: right;
+		}
+		
+		nav a:link, nav a:visited {
+			color: #000;
+			text-decoration: none;
+		}
+		
+		nav li a:hover {
+			text-decoration: underline;
+		}
+		
+nav .active:link, nav .active:visited {}
+
+
+a:link, a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #fcf9b6;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+footer {
+    position: fixed;
+    right: -70px;
+    bottom: 0;
+}
+
+#body {
+    width: 700px;
+    margin: auto;
+}
+
+article {
+    font-family: 'graphik_light';
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
