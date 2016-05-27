@@ -52,7 +52,7 @@ body {
 			font-size: 13px;
 			display: block;
 			text-decoration: none;
-			left: 50px;
+			left: 100px;
 			top: 50%;
 			margin-top: -80px;
 			color: #000;
@@ -82,7 +82,9 @@ body {
 			text-decoration: underline;
 		}
 		
-nav .active:link, nav .active:visited {}
+nav .active:link, nav .active:visited {
+    
+}
 
 
 a:link, a:visited {
@@ -91,17 +93,14 @@ a:link, a:visited {
 
 a:hover {
 	color: grey;
+    
 }
 
 header {
-    font-family: "lemonmilk";
-    font-size: 80px;
     margin: auto;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
-    
-    
 }
 
 header a {
@@ -261,6 +260,8 @@ figure.effect-discog:hover p {
 }
 
 
-
+#media .grid figure {
+    margin-bottom: 20px;
+}
 
 

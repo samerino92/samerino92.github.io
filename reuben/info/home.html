@@ -11,12 +11,26 @@
 	<link rel="stylesheet" href="../styles/global.css">
 	<style type="text/css">
 
-       footer {
-            position: fixed;
-            right: -50px;
-            bottom: -5px;
-        }
-        
+          a.enter_rollover {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			display: block;
+			width: 196px;
+			height: 500px;
+			margin-left: -98px;
+			margin-top: -250px;
+			text-decoration: none;
+			background: url("../images/bass_case_cutout_rollover2.png");
+            transition: none;
+            z-index: -2;
+		}
+
+		a.enter_rollover:hover {
+			background-position: 0 -500px;
+            cursor: pointer;
+		}
+
 
 	</style>
 	
@@ -34,8 +48,8 @@
 
 <div id="containerMain">
 
-<header>
-    <a href="../index.html">REUBEN ROGERS</a>
+    <header>
+    <img src="../images/reuben_rogers.png" alt="header_main" width="500" height="83">
 </header>
 
 
@@ -58,14 +72,14 @@
 <div id="body">
     
   
-       <img src="../images/reuben_floor.png" width="700" height="455">
+        <a class="enter_rollover" href="../index.html"></a>
 
     
     </div>
     
 
     <footer>
-    <img src="../images/bass_case_cutout.png" width="196" height="500" alt="">
+    
 </footer>
 
 </div>
