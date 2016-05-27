@@ -8,6 +8,20 @@
   src: url('../fonts/graphik/Graphik-Light.otf');
 }
 
+@font-face{
+  font-family: 'graphik_semibold';
+  src: url('../fonts/graphik/Graphik-Semibold.otf');
+}
+
+@font-face{
+  font-family: 'wendi';
+  src: url('../fonts/graphik/wendi.otf');
+}
+
+@font-face{
+  font-family: 'lemonmilk';
+  src: url('../fonts/LemonMilk.otf');
+}
 
 * {
 	margin: 0;
@@ -72,18 +86,30 @@ nav .active:link, nav .active:visited {}
 
 
 a:link, a:visited {
-	color: #ffffff;
+	color: #000;
 }
 
 a:hover {
-	color: #fcf9b6;
+	color: grey;
 }
 
 header {
+    font-family: "lemonmilk";
+    font-size: 80px;
     margin: auto;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
+    
+    
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #000;
 }
 
 footer {
@@ -96,6 +122,7 @@ footer {
     width: 700px;
     margin: auto;
     min-height: 200px;
+    margin-bottom: 50px;
 }
 
 article {
@@ -122,12 +149,18 @@ article {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 15px 15px 0 0;
-	width: 160px;
-	height: 160px;
+	margin: 17px 17px 0 0;
+	width: 215px;
+	height: 215px;
 	background: #000;
 	text-align: center;
 	cursor: pointer;
+}
+
+#media .grid figure {
+    width: 160px;
+    height: 160px;
+    margin: 15px 15px 0 0;
 }
 
 .grid figure img {
