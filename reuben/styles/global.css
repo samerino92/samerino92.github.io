@@ -23,6 +23,21 @@
   src: url('../fonts/LemonMilk.otf');
 }
 
+@font-face{
+  font-family: 'pilsenplakat';
+  src: url('../fonts/PilsenPlakat.ttf');
+}
+
+@font-face{
+  font-family: 'mixmodernoutline';
+  src: url('../fonts/MixModernOutline.ttf');
+}
+
+@font-face{
+  font-family: 'mixmodern';
+  src: url('../fonts/MixModernSolid.ttf');
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -47,7 +62,7 @@ body {
 
 
 		nav {
-			font-family: 'graphik_semibold';
+			font-family: 'graphik_light';
 			position: fixed;
 			font-size: 13px;
 			display: block;
@@ -101,6 +116,10 @@ header {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
+    font-family: 'mixmodern';
+    font-size: 70px;
+    padding-bottom: 20px;
+    
 }
 
 header a {
@@ -161,6 +180,12 @@ article {
     height: 160px;
     margin: 15px 15px 0 0;
 }
+
+
+#media .grid figure {
+    margin-bottom: 20px;
+}
+
 
 .grid figure img {
 	position: relative;
@@ -259,9 +284,7 @@ figure.effect-discog:hover p {
 	transform: translate3d(0,0,0);
 }
 
-
-#media .grid figure {
-    margin-bottom: 20px;
+#media a {
+    font-size: 22px;
 }
-
 
