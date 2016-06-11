@@ -38,6 +38,8 @@
   src: url('../fonts/MixModernSolid.ttf');
 }
 
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 * {
 	margin: 0;
 	padding: 0;
@@ -404,13 +406,13 @@ figure.effect-discog:hover p {
         text-align: center;
         cursor: pointer;
         width: 23%;
-        height: inherit;
+        height: 15%;
         margin-rigth: 2%;
     }
 
     #media .grid figure {
         width: 23%;
-        height: inherit;
+        height: 5%;
         margin-right: 2%;
     }
 
