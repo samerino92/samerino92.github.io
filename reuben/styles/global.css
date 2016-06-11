@@ -114,12 +114,10 @@ a:hover {
 header {
     margin: auto;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-family: 'mixmodern';
-    font-size: 70px;
-    padding-bottom: 20px;
-    
+    padding: 40px 0 30px 0;
+    font-family: 'mixmodernoutline';
+    font-size: 75px;
+
 }
 
 header a {
@@ -127,7 +125,12 @@ header a {
 }
 
 header a:hover {
+    font-family: 'mixmodern';
     color: #000;
+}
+
+#header {
+    width: 100%;
 }
 
 footer {
@@ -149,10 +152,6 @@ article {
     line-height: 40px;
     text-align: center;
 }
-
-
-
-
 
 
 
@@ -178,12 +177,7 @@ article {
 #media .grid figure {
     width: 160px;
     height: 160px;
-    margin: 15px 15px 0 0;
-}
-
-
-#media .grid figure {
-    margin-bottom: 20px;
+    margin: 15px 15px 20px 0;
 }
 
 
@@ -286,5 +280,188 @@ figure.effect-discog:hover p {
 
 #media a {
     font-size: 22px;
+}
+
+#media figure img:hover {
+    opacity: .6;
+}
+
+.clearFloat {
+    clear: left;
+    font-size: 1px;
+    line-height: 1px;
+    height: 18px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    
+    nav {
+        left: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    
+    nav {
+        left: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1150px) {
+    
+    #body {
+        width: 600px;
+    }
+
+    #media .grid figure {
+        width: 135px;
+        height: 135px;
+        margin: 15px 15px 20px 0;
+    }
+    
+    .grid figure {
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin: 17px 17px 0 0;
+        width: 180px;
+        height: 180px;
+        background: #000;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    
+}
+
+@media screen and (max-width: 1100px) {
+    #body {
+        width: 550px;
+    } 
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+    
+    header {
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        font-family: 'mixmodernoutline';
+        font-size: 70px;
+    }
+    
+    nav {
+        position: inherit;
+        font-size: 18px;
+        display: block;
+        text-decoration: none;
+        padding-left: 50%;
+        margin-left: -75px;
+        margin-top: 30px;
+        margin-bottom: 15px; 
+    }
+
+    nav ul {
+        display: table;
+        border-collapse: collapse;
+        list-style-type: none;
+        margin: none;
+        padding: 0;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    nav li {
+        width: 150px;
+        padding: 10px 0;
+        text-align: center;
+        background-color: rgba(249,249,249,.5);
+    }
+
+    #body {
+        width: 90%;
+        margin: auto;
+        min-height: 200px;
+        margin-bottom: 50px;
+    }
+
+    article {
+        font-family: 'graphik_light';
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .grid figure {
+        position: relative;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+        width: 23%;
+        height: 23%;
+        margin-rigth: 2%;
+    }
+
+    #media .grid figure {
+        width: 23%;
+        height: 23%;
+        margin-right: 2%;
+    }
+
+
+    #media .grid figure {
+        margin-bottom: 20px;
+    }
+    
+    #media p {
+        font-size: 25px;
+    }
+    
+    .mediaRow {
+        text-align: center;
+        width: 100%;
+        
+    }
+    .mediaRow figure {
+      
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 850px) {
+    header {
+        font-size: 60px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    header {
+        font-size: 50px;
+    }
+    
+    #media .grid {
+        margin-left: 5%;
+    }
+    
+    #media .grid figure {
+        width: 44%;
+        height: 44%;
+        margin-right: 6%;
+    }
+
+
+
 }
 
