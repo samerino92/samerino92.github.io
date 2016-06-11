@@ -404,13 +404,13 @@ figure.effect-discog:hover p {
         text-align: center;
         cursor: pointer;
         width: 23%;
-        height: auto;
+        height: inherit;
         margin-rigth: 2%;
     }
 
     #media .grid figure {
         width: 23%;
-        height: auto;
+        height: inherit;
         margin-right: 2%;
     }
 
@@ -426,12 +426,8 @@ figure.effect-discog:hover p {
     .mediaRow {
         text-align: center;
         width: 100%;
-        
     }
-    .mediaRow figure {
-      
-    }
-    
+
     
 }
 
@@ -457,7 +453,7 @@ figure.effect-discog:hover p {
     
     #media .grid figure {
         width: 44%;
-        height: 44%;
+        height: inherit;
         margin-right: 6%;
     }
 
