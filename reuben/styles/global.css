@@ -404,13 +404,13 @@ figure.effect-discog:hover p {
         text-align: center;
         cursor: pointer;
         width: 23%;
-        height: 23%;
+        height: auto;
         margin-rigth: 2%;
     }
 
     #media .grid figure {
         width: 23%;
-        height: 23%;
+        height: auto;
         margin-right: 2%;
     }
 
