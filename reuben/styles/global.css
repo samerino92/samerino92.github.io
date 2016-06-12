@@ -318,23 +318,19 @@ figure.effect-discog:hover p {
         width: 600px;
     }
 
+    .grid figure {
+        width: 180px;
+        height: 180px;
+    }
+    
+    
     #media .grid figure {
         width: 135px;
         height: 135px;
         margin: 15px 15px 20px 0;
     }
     
-    .grid figure {
-        position: relative;
-        float: left;
-        overflow: hidden;
-        margin: 17px 17px 0 0;
-        width: 180px;
-        height: 180px;
-        background: #000;
-        text-align: center;
-        cursor: pointer;
-    }
+   
 
     
 }
@@ -343,6 +339,16 @@ figure.effect-discog:hover p {
     #body {
         width: 550px;
     } 
+    
+    .grid figure {
+        width: 165px;
+        height: 165px;
+    }
+    
+    #media .grid figure {
+        width: 122px;
+        height: 122px;
+    }
     
 }
 
@@ -394,42 +400,34 @@ figure.effect-discog:hover p {
     }
 
     article {
-        font-family: 'graphik_light';
         font-size: 28px;
         line-height: 40px;
-        text-align: center;
     }
 
     .grid figure {
-        position: relative;
-        float: left;
-        text-align: center;
-        cursor: pointer;
         width: 23%;
-        height: 15%;
-        margin-rigth: 2%;
-    }
-
-    #media .grid figure {
-        width: 23%;
-        height: 5%;
+        height: auto;
         margin-right: 2%;
     }
-
+    
+    .grid figure img {
+        min-height: 50px;
+        height: auto;
+    }
 
     #media .grid figure {
+        width: 23%;
+        height: auto;
+        margin-right: 2%;
         margin-bottom: 20px;
+        
     }
+
     
     #media p {
         font-size: 25px;
     }
-    
-    .mediaRow {
-        text-align: center;
-        width: 100%;
-    }
-
+   
     
 }
 
@@ -438,6 +436,7 @@ figure.effect-discog:hover p {
     header {
         font-size: 60px;
     }
+    
 }
 
 
@@ -448,6 +447,15 @@ figure.effect-discog:hover p {
     header {
         font-size: 50px;
     }
+
+    .grid {
+        margin-left: 5%;
+    }
+    
+    .grid figure {
+        width: 30%;
+        margin-right: 3%;
+    }
     
     #media .grid {
         margin-left: 5%;
@@ -455,11 +463,12 @@ figure.effect-discog:hover p {
     
     #media .grid figure {
         width: 44%;
-        height: inherit;
         margin-right: 6%;
     }
 
-
+    footer img {
+        opacity: .3;
+    }
 
 }
 
