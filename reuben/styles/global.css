@@ -174,12 +174,13 @@ article {
 	background: #000;
 	text-align: center;
 	cursor: pointer;
+   
 }
 
 #media .grid figure {
     width: 160px;
     height: 160px;
-    margin: 15px 15px 20px 0;
+    margin: 15px 15px 0 0;
 }
 
 
@@ -228,6 +229,13 @@ article {
 	font-size: 16px;
 }
 
+
+.saveAs {
+    font-size: 12px;
+    text-align: right;
+    line-height: 12px;
+    padding-bottom: 30px;
+}
 
 figure.effect-discog img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
