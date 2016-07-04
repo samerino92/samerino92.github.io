@@ -113,6 +113,8 @@ a:hover {
     
 }
 
+
+
 header {
     margin: auto;
     text-align: center;
@@ -230,12 +232,6 @@ article {
 }
 
 
-.saveAs {
-    font-size: 12px;
-    text-align: right;
-    line-height: 12px;
-    padding-bottom: 30px;
-}
 
 figure.effect-discog img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -288,6 +284,10 @@ figure.effect-discog:hover p {
 	transform: translate3d(0,0,0);
 }
 
+#media p {
+    font-size: 22px;
+}
+
 #media a {
     font-size: 22px;
 }
@@ -296,6 +296,17 @@ figure.effect-discog:hover p {
     opacity: .6;
 }
 
+#media h3 a {
+    font-size: 20px;
+}
+
+#media .saveAs {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+
 .clearFloat {
     clear: left;
     font-size: 1px;
@@ -303,13 +314,33 @@ figure.effect-discog:hover p {
     height: 18px;
 }
 
+.formError {
+    background-color: rgba(0,0,0,.1);
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    padding-bottom: 13px;
+    display: block;
+    z-index: 5000;
+    cursor: pointer;
+}
+
+.formError .formErrorContent {
+    width: 100%;
+    background: grey;
+    color: #fff;
+    width: 200px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: .8em;
+    padding: 6px 6px 8px 18px;
+}
 
 @media screen and (max-width: 1250px) {
     
     nav {
         left: 75px;
     }
-    
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -335,7 +366,7 @@ figure.effect-discog:hover p {
     #media .grid figure {
         width: 135px;
         height: 135px;
-        margin: 15px 15px 20px 0;
+        margin: 15px 15px 10px 0;
     }
     
    
@@ -431,9 +462,16 @@ figure.effect-discog:hover p {
         
     }
 
-    
     #media p {
-        font-size: 25px;
+        font-size: 20px;
+    }
+    
+    #media h3 {
+        font-size: 16px;
+    }
+    
+    #media .saveAs {
+        font-size: 14px;
     }
    
     

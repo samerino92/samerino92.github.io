@@ -31,16 +31,28 @@
             cursor: pointer;
 		}
         
+        a.enter_rollover2 img {
+            display: none;
+        }
        
 
 
-        @media screen and (max-width: 700px) {
-            a.enter_rollover {
-                
+        @media screen and (max-width: 500px) {
+        
+        a.enter_rollover {
+            display: none;
             }
         
-    
-    
+            a.enter_rollover2 img {
+                display: block;
+                height: 70%;
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;   
+                top: 17%;
+            }
         }
         
 	</style>
@@ -71,6 +83,8 @@
     
   
         <a class="enter_rollover" href="info/media.html"></a>
+    
+    <a class="enter_rollover2" href="info/media.html"><img src="images/bass_case_cutout.png"> </a>
 
     
     </div>
