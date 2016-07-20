@@ -1,0 +1,175 @@
+@font-face{
+  font-family: 'moonflower_bold';
+  src: url('../fonts/MoonFlowerBold.ttf');
+}
+
+@font-face{
+  font-family: 'moonflower';
+  src: url('../fonts/MoonFlower.ttf');
+}
+
+@font-face{
+	font-family: 'graphik_thin';
+	src: url('../fonts/Graphik-Thin.otf')
+}
+
+@font-face{
+	font-family: 'graphik_thin_italic';
+	src: url('../fonts/Graphik-Thin-Italic.otf')
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-transition: color 0.3s ease-in, background 0.3s ease-in, opacity 0.3s ease-in, border-bottom 0.3s ease-in;
+	-moz-transition: color 0.3s ease-in, background 0.3s ease-in, opacity 0.3s ease-in, border-bottom 0.3s ease-in;
+	-o-transition: color 0.3s ease-in, background 0.3s ease-in, opacity 0.3s ease-in, border-bottom 0.3s ease-in;
+	transition: color 0.3s ease-in, background 0.3s ease-in, opacity 0.3s ease-in, border-bottom 0.3s ease-in;
+}
+
+
+html {
+	overflow-y: scroll;
+    background: url(../images/bkg.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+		
+}
+
+body {
+	font-family: 'moonflower';
+	color: white;
+}
+
+/***** Nav START *****/
+
+
+		nav {
+			font-family: 'moonflower';
+			position: absolute;
+			font-size: 40px;
+			display: block;
+			text-decoration: none;
+			left: 0;
+			top: 50%;
+			margin-top: -215px;
+			color: white;
+			background-color: rgba(0,0,0,0.7);
+			border-radius: 0px 10px 10px 0px;
+		}
+		
+		nav ul {
+			display: table;
+		    border-collapse: collapse;
+			list-style-type: none;
+			margin: 0 20px 10px 20px;
+			padding: 0;
+		}
+		
+		nav li {
+		    width: 1%;
+		    padding-top: 10px;
+		}
+		
+		nav a:link, nav a:visited {
+			color: white;
+			text-align: left;
+			text-decoration: none;
+		}
+		
+		nav li a:hover {
+			color: #fcf9b6;
+		}
+		
+		nav .active:link, nav .active:visited {
+			font-family: 'moonflower_bold';
+			color: #fcf9b6;
+		}
+		
+
+
+a:link, a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #fcf9b6;
+}
+		
+#content {
+	margin-left: 200px;
+	margin-right: 25px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 90vh;
+	margin-top: 5vh;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 10px;
+}
+
+#content::-webkit-scrollbar { 
+	display: none;
+}
+
+
+#content article {
+	padding: 30px 0px;
+	margin: 0px 30px;
+}
+
+#content article p {
+	font-family: 'graphik_thin';
+	font-weight: 100;
+	font-size: 23px;
+    line-height: 30px;
+}	
+
+#content article p i {
+    font-family: 'graphik_thin_italic';
+    line-height: 40px;
+}
+
+#calendar {
+	width: 100%;
+	height: 83vh;
+}
+
+h1 {
+	font-family: "graphik_thin";
+	font-size: 30px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+footer img {
+	width: 30px;
+	padding-left: 3px;
+	opacity: .5;
+}
+
+footer img:hover {
+	opacity: 1;
+}
+
+iframe {
+	border: none;
+}
+
+		
+		
+		
+		
+		
+		
+		
+		
